@@ -1,5 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
+# Rails should look for assets in the /node_modules directories
+Rails.application.config.assets.paths << Rails.root.join('node_modules')
+
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = (ENV["ASSETS_VERSION"] || "1.0")
 
