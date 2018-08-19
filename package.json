@@ -1,0 +1,7 @@
+{
+  "name": "zero1-ml-gallery",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
