@@ -1,0 +1,173 @@
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=16785
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=16785
+  [1m[35m (346.8ms)[0m  [1m[35mCREATE DATABASE "zero1-ml-gallery_development" ENCODING = 'utf8'[0m
+  ↳ bin/rails:4
+  [1m[35m (246.1ms)[0m  [1m[35mCREATE DATABASE "zero1-ml-gallery_test" ENCODING = 'utf8'[0m
+  ↳ bin/rails:4
+  [1m[35m (11.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7727702070218659725)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-08-19 17:40:40.508451"], ["updated_at", "2018-08-19 17:40:40.508451"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7727702070218659725)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=16893
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=16893
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=16902
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=16902
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=16912
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=16912
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=16919
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=16919
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17019
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17019
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17031
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17031
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17041
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17041
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17145
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17145
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17161
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17161
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17180
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17180
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17196
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17196
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17213
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17213
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17318
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17318
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17336
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17336
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17353
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17353
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17372
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17372
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17480
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17480
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17495
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17495
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17519
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17519
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17533
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17533
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17548
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17548
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=17656
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=17656
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=29440
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=29440
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7727702070218659725)[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateDelayedJobs (20180819174124)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "delayed_jobs"[0m
+  ↳ db/migrate/20180819174124_create_delayed_jobs.rb:3
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "delayed_jobs" ("id" bigserial primary key, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" timestamp, "locked_at" timestamp, "failed_at" timestamp, "locked_by" character varying, "queue" character varying, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/migrate/20180819174124_create_delayed_jobs.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "delayed_jobs_priority" ON "delayed_jobs"  ("priority", "run_at")[0m
+  ↳ db/migrate/20180819174124_create_delayed_jobs.rb:16
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180819174124"]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7727702070218659725)[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+** [Honeybadger] Initializing Honeybadger Error Tracker for Ruby. Ship it! version=3.3.1 framework=rails level=1 pid=29595
+** [Honeybadger] Development mode is enabled. Data will not be reported until you deploy your app. level=2 pid=29595
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "zero1-ml-gallery_development" ENCODING = 'utf8'[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "zero1-ml-gallery_test" ENCODING = 'utf8'[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35mSQL (1.0ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (4.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "delayed_jobs" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "delayed_jobs" ("id" bigserial primary key, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" timestamp, "locked_at" timestamp, "failed_at" timestamp, "locked_by" character varying, "queue" character varying, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX  "delayed_jobs_priority" ON "delayed_jobs"  ("priority", "run_at")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "delayed_jobs" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (16.8ms)[0m  [1m[35mCREATE TABLE "delayed_jobs" ("id" bigserial primary key, "priority" integer DEFAULT 0 NOT NULL, "attempts" integer DEFAULT 0 NOT NULL, "handler" text NOT NULL, "last_error" text, "run_at" timestamp, "locked_at" timestamp, "failed_at" timestamp, "locked_by" character varying, "queue" character varying, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "delayed_jobs_priority" ON "delayed_jobs"  ("priority", "run_at")[0m
+  ↳ db/schema.rb:18
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180819174124)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-08-19 18:49:18.586863"], ["updated_at", "2018-08-19 18:49:18.586863"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2018-08-19 18:49:18.591222"], ["key", "environment"]]
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/josheche/.rvm/gems/ruby-2.5.1/bin/rake:23
