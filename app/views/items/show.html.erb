@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @item.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @item.description %>
+</p>
+
+<p>
+  <strong>Medium:</strong>
+  <%= @item.medium %>
+</p>
+
+<p>
+  <strong>Ml src:</strong>
+  <%= @item.ml_src %>
+</p>
+
+<p>
+  <strong>Ml:</strong>
+  <%= @item.ml_id %>
+</p>
+
+<p>
+  <strong>Collection:</strong>
+  <%= @item.collection_id %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
