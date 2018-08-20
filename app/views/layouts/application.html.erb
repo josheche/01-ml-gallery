@@ -15,7 +15,9 @@
 </head>
 <body class="<%= body_class %>">
   <%= render "flashes" -%>
-  <%= yield %>
+  <section class="container">
+    <%= yield %>
+  </section>
   <%= render "javascript" %>
   <%= render "css_overrides" %>
 </body>
